@@ -7,13 +7,13 @@
 
 
 Ticet = 385916
-number1 = Ticet%1000
+number1 = Ticet % 1000
 a1 = number1 % 10
 number1 = number1 // 10
 a2 = number1 % 10
 number1 = number1 // 10
 
-number2 = Ticet//1000
+number2 = Ticet // 1000
 b1 = number2 % 10
 number2 = number2 // 10
 b2 = number2 % 10

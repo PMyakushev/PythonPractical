@@ -8,6 +8,6 @@
 # 60 -> 10  40  10
 
 s = int(input('Всего журавликов сделали дети: '))
-Petr=s/6
-Katya=Petr*4
+Petr = s / 6
+Katya = Petr * 4
 print(f'Петя сделал {Petr}, Катя сделала {Katya}, Сергей сделал {Petr} ')

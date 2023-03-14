@@ -8,7 +8,7 @@
 n = int(input('Введите размер n для шоколадки: '))
 m = int(input('Введите размер m для шоколадки: '))
 k = int(input('Введите кол-во долек k: '))
-if (n*m-k)%2 !=1:
+if (n * m - k) % 2 != 1:
     print('yes')
 else:
     print('no')

@@ -5,9 +5,9 @@
 # 100 -> 1 (1 + 0 + 0) |
 
 number = int(input('Введите число: '))
-d1 = number % 10 # остаток от деления123%10 = 3
-number = number // 10 #123 // 10 = 12
-d2 = number % 10 # 12 // 10 = 2
-number = number // 10 # 12 // 10
+d1 = number % 10  # остаток от деления123%10 = 3
+number = number // 10  # 123 // 10 = 12
+d2 = number % 10  # 12 // 10 = 2
+number = number // 10  # 12 // 10
 print(number, d1, d2)
 print(number + d1 + d2)

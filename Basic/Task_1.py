@@ -8,12 +8,12 @@
 
 
 second = int(input('Пользователь вводит время в секундах: '))
-if second/60 > 1:
-    minuts = round(second/60, 2)
+if second / 60 > 1:
+    minuts = round(second / 60, 2)
 else:
     minuts = 0
-if minuts/60 > 1:
-    hour = round(minuts/60, 2)
+if minuts / 60 > 1:
+    hour = round(minuts / 60, 2)
 else:
     hour = 0
 print(f'ч:{hour}  м:{minuts}  с:{second}')
